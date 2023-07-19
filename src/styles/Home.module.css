@@ -1,0 +1,10 @@
+.home__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: calc(100vh - 250px);
+    overflow-x: hidden;
+    top: 72px;
+    padding: 0 calc(3.5vw + 5px);
+    z-index: -1;
+}

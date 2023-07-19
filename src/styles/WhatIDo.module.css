@@ -1,0 +1,103 @@
+.container {
+    height: 100vh;
+    /* margin-top: 50px; */
+}
+
+.html {
+    width: 96px;
+    position: relative;
+    top: 85px;
+    left: 290px;
+}
+
+.css {
+    width: 100px;
+    position: relative;
+    top: 185px;
+    left: -100px;
+}
+
+.js  {
+    width: 100px;
+    position: relative;
+    top: 413px;
+    left: -195px
+}
+
+.firebase{
+    width: 131px;
+    position: relative;
+    top: 208px;
+    left: 83px;
+}
+
+.figma {
+    
+    width: 60px;
+    position: relative;
+    top: 573px;
+    left: 9px;
+}
+
+.react {
+    width: 115px;
+    position: relative;
+    top: 307px;
+    left: -305px;
+}   
+
+.uiux {
+    width: 100px;
+    position: relative;
+    top: 415px;
+    left: 204px;
+}
+
+
+/* spinner */
+
+.container img {
+    pointer-events: none;
+  }
+  
+@media (prefers-reduced-motion: no-preference) {
+    .container img {
+      animation: App-logo-spin infinite 10s linear;
+    }
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+
+/* Responsive Mode */
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* background: pink; */
+        height: auto;
+    }
+    .container img {
+        position: static;
+        margin-left: 10px;
+    }
+   
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+    }
+    .container img {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,43 @@
+.container {
+    /* background: pink; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.intro {
+    /* background: gray; */
+    text-align: left;
+    line-height: 2;
+    font-size: 32px;
+    letter-spacing: 1px;
+
+}
+
+.info {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 567px) {
+    .intro {
+        font-size: var(--font-med);
+    }
+    .info {
+        font-size: var(--font-sm);
+    }
+}
+
+
+/* @media screen and (max-width: 375px) {
+    .intro {
+        font-size: var(--font-med);
+    }
+    .info {
+        font-size: var(--font-sm);
+    }
+} */
