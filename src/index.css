@@ -9,6 +9,8 @@ body {
 
 html {
   --primary-color: #0a2b38;
+  --white-color: #ffffffda;
+  --primary-hover: #53c2ef;
   --nav-color: #051f29;
   --nav-hover:  #35b9ee;
   --font-la: 22px;

@@ -5,9 +5,10 @@ import MyWorks from './MyWorks';
 import WhatIDo from './WhatIDo';
 import { MyContext } from '../Context';
 
+
 function Home() {
 
-  const { projects, showProjects } = useContext(MyContext);
+  const { showProjects } = useContext(MyContext);
 
   useEffect(()=>{
     showProjects();
@@ -16,11 +17,7 @@ function Home() {
   return (
     <div className={styles.home__container}>
       <About />
-      { projects && projects.map((project)=>(
-
-        <MyWorks project={project} key={project.id}/>
-
-      ))}
+      <MyWorks />
       <WhatIDo />
     </div>
   )

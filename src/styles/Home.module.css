@@ -7,4 +7,6 @@
     top: 72px;
     padding: 0 calc(3.5vw + 5px);
     z-index: -1;
+    opacity: 1;
+
 }

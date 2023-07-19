@@ -17,7 +17,7 @@
 .left__side > h1 {
     margin: 0;
     font-size: var(--font-med);
-    color: var(--primary-color);
+    color: #97b5e9 ;
 }
 
 .right__side {

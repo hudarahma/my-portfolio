@@ -17,6 +17,7 @@ function Header() {
             <Link to='/'><span className={styles.span}>About Me</span></Link>
             <Link to='myworks'><span className={styles.span}>My Works</span></Link>
             <Link to='whatido'><span className={styles.span}>What I Do</span></Link>
+            {/* add resume link here */}
             {/* <Link to='/'><span className={styles.span}>Download My Resume</span></Link> */}
         </nav>
         <Outlet />
