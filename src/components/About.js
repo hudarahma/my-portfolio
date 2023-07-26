@@ -13,7 +13,7 @@ function About() {
     <div className={styles.container}>
       <div data-aos="fade-right" className={styles.intro}>
         <p>
-          I'm Huda Rahmatollah, <br />Web Developer, Web Designer, UI/UX Design<br />Borned and living at United Arab Emirates
+          I'm Huda Soleimani, <br />Web Developer, Web Designer, UI/UX Design<br />Borned and living in United Arab Emirates
         </p>
       </div>
       <div  data-aos="fade-right"  data-aos-delay="1000" className={styles.info}>
