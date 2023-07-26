@@ -20,15 +20,14 @@ function MyWorks() {
 
         <div data-aos="fade-left" data-aos-delay="100" className={styles.container} key={project.id}>
       
-            <span className={styles.mywork__desc} >
-                {project.name}<br />
-                {project.description}
-                <br />
-                <br />
-                <Link to={project.readme} target='_blank' className={styles.readme}>{project.readme}</Link>
-            </span>
-            <img className={styles.mywork__image} src={project.img} alt='project'/>
+            <div className={styles.mywork__desc} >
+              <h2 className={styles.project__name}>{project.name}</h2>
+              <p className={styles.project__desc}>{project.description}</p>
+              <br />
+              <Link to={project.readme} target='_blank' className={styles.readme}>{project.readme}</Link>
+            </div>
 
+            <img className={styles.mywork__image} src={project.img} alt='project'/>
         </div>
       </Link>
     ))}
