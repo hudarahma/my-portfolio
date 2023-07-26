@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    height: 68px;
+    background: #131212;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1 h1 {
+    margin: 0;
+    color: #53c2ef;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.github {
+    width: 30px;
+}
+
+.email {
+    width: 32px;
+}
+.icons a {
+    text-decoration: none;
+}
+
+.icons a:focus {
+    outline: none;
+}

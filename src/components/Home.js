@@ -6,6 +6,7 @@ import MyWorks from './MyWorks';
 import WhatIDo from './WhatIDo';
 import "aos/dist/aos.css"
 import { MyContext } from '../Context';
+import Footer from './Footer';
 
 
 function Home() {
@@ -51,6 +52,7 @@ function Home() {
       <About />
       <MyWorks />
       <WhatIDo />
+      <Footer />
     </div>
   )
 }
