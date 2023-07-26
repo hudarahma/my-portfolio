@@ -10,3 +10,25 @@
     opacity: 1;
 
 }
+
+.overlay {
+    background: #020202;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    position: relative;
+}
+
+.span {
+    color: white;
+    width: 100%;
+    height: 250px;
+    /* background: rebeccapurple; */
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}

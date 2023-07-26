@@ -16,8 +16,16 @@
 }
 .left__side > h1 {
     margin: 0;
+    color: var(--nav-hover) ;
+}
+
+.left__side > a {
     font-size: var(--font-med);
-    color: #97b5e9 ;
+    text-decoration: none;
+    outline: none;
+}
+.left__side > a:focus {
+    outline: none;
 }
 
 .right__side {
@@ -43,6 +51,10 @@
     border-radius: 4px;
     transition: all 0.2s ease 0s;
     cursor: pointer;
+}
+
+.right__side a:focus {
+    outline: none;
 }
 
 .span {

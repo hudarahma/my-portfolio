@@ -16,7 +16,7 @@ function MyWorks() {
   return (
     <>
     { projects && projects.map((project)=> (
-      <Link to={project.link} target='_blank'>
+      <Link to={project.link} target='_blank' key={project.id}>
 
         <div data-aos="fade-left" data-aos-delay="100" className={styles.container} key={project.id}>
       

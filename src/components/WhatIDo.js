@@ -9,7 +9,7 @@ function WhatIDo() {
       <img className={styles.js} src='/icons/js-icon.svg' alt='icon'/>
       <img className={styles.figma} src='/icons/figma-icon.svg' alt='icon'/>
       <img className={styles.uiux} src='/icons/uiux-icon.svg' alt='icon'/>
-      <img className={styles.firebase} src='/icons/firestore-icon.svg' alt='icon'/>
+      <img className={styles.firebase} src='/icons/firebase-icon.svg' alt='icon'/>
       <img className={styles.react} src='/icons/react-icon.svg' alt='icon'/>
     </div>
   )

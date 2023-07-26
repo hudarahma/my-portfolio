@@ -5,6 +5,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    background-image: url('/public/background.jpg');
+    object-fit: cover;
+    opacity: 0.9;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: 10px;
 }
 
 .intro {
@@ -13,7 +19,7 @@
     line-height: 2;
     font-size: 32px;
     letter-spacing: 1px;
-    color: var(--white-color);
+    color: var(--primary-color);
 
 }
 
@@ -22,7 +28,7 @@
     line-height: 1.5;
     font-size: 28px;
     letter-spacing: 1px;
-    color: var(--white-color);
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 567px) {

@@ -10,11 +10,11 @@ function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.left__side}>
-        <h1>H.Rahma Dev</h1>
+        <Link to='/'><h1>H.Rahma Dev</h1></Link>
       </div>
       <div className={styles.right__side}>
         <nav className={styles.nav}>
-            <Link to='/'><span className={styles.span}>About Me</span></Link>
+            <Link to='aboutme'><span className={styles.span}>About Me</span></Link>
             <Link to='myworks'><span className={styles.span}>My Works</span></Link>
             <Link to='whatido'><span className={styles.span}>What I Do</span></Link>
             {/* add resume link here */}

@@ -10,6 +10,7 @@ import Home from  './components/Home';
 import Header from './components/Header';
 import MyWorks from './components/MyWorks';
 import WhatIDo from './components/WhatIDo';
+import About from './components/About';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Header />
           <Routes>
             <Route path='/' element={<Home />}/>
+            <Route path='aboutme' element={<About />} />
             <Route path='myworks' element={<MyWorks />} />
             <Route path='whatido' element={<WhatIDo />}/>
           </Routes>
