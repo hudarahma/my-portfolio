@@ -38,9 +38,9 @@ function Home() {
       <div className={styles.overlay} data-aos="zoom-in" >
         <span className={styles.span} data-aos="flip-right" data-aos-delay="100">Welcome to My Portfolio</span>
         <SimpleImageSlider 
-          style={{ opacity: 0.1 , objectFit:"cover", overflow:"hidden", width:"100%" , height:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}
-          width={1200}
-          height={550}
+          style={{ opacity: 0.1 , objectFit:"cover", overflow:"hidden", display:"flex", alignItems:"end", justifyContent:"center"}}
+          width={"100%"}
+          height={"100%"}
           images={sliderImages}
           autoPlay={true}
           onStartSlide = {(index, length) => {

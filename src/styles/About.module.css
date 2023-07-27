@@ -41,11 +41,9 @@
 }
 
 
-/* @media screen and (max-width: 375px) {
-    .intro {
-        font-size: var(--font-med);
+@media screen and (max-width: 425px) {
+    .container {
+        justify-content: flex-start;
+        height: auto;
     }
-    .info {
-        font-size: var(--font-sm);
-    }
-} */
+}
