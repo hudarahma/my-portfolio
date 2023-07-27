@@ -151,13 +151,15 @@
     .right__side {
         font-size: var(--font-sm);
     }
-}
-
-@media screen and (max-width: 567px) {
     .left__side h1 {
         font-size: var(--font-sm);
         font-weight: 600;
     }
+
+}
+
+@media screen and (max-width: 567px) {
+  
     .nav {
         visibility: hidden;
     }
